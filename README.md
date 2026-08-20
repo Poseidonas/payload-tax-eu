@@ -1,6 +1,6 @@
 # payload-tax-eu
 
-[![npm](https://img.shields.io/npm/v/payload-tax-eu?style=flat-square&color=0F766E)](https://www.npmjs.com/package/payload-tax-eu) ![node](https://img.shields.io/badge/node-%3E%3D20-339933?style=flat-square) ![license](https://img.shields.io/badge/license-MIT-6C757D?style=flat-square)
+[![npm](https://img.shields.io/npm/v/payload-tax-eu?style=flat-square&color=0F766E)](https://www.npmjs.com/package/payload-tax-eu) ![node](https://img.shields.io/badge/node-%3E%3D20-339933?style=flat-square) ![license](https://img.shields.io/badge/license-MIT-6C757D?style=flat-square) ![payload](https://img.shields.io/badge/Payload-3.88+-0a0c0b?style=flat-square)
 
 Works out EU VAT for a Payload shop and writes the result onto the order: the rate applied, the taxable base, the VAT, the country and whether reverse charge took over, so that a quarter later you can still say why a customer was charged what they were charged.
 
@@ -10,6 +10,8 @@ Works out EU VAT for a Payload shop and writes the result onto the order: the ra
 - No admin components, so it survives minor releases
 
 ## Install
+
+Requires **Payload 3.88 or newer** and **`@payloadcms/plugin-ecommerce` 3.88 or newer**. Verified against Payload 3.88.0 with the official plugin installed.
 
 ```bash
 pnpm add payload-tax-eu
