@@ -15,7 +15,7 @@
   "bugs": "https://github.com/Poseidonas/payload-tax-eu/issues",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Poseidonas/payload-tax-eu"
+    "url": "git+https://github.com/Poseidonas/payload-tax-eu.git"
   },
   "license": "MIT",
   "author": "George Vasiliades (https://github.com/Poseidonas)",
