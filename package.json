@@ -1,6 +1,6 @@
 {
   "name": "payload-tax-eu",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "EU VAT for Payload ecommerce: rates by country, B2B reverse charge, VAT number validation and OSS totals.",
   "keywords": [
     "payload",
